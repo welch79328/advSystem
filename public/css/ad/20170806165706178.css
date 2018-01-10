@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+}
+
+img {
+	width: 100%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#mybn {
+	min-width: 100%;
+	min-height: 100%;
+}

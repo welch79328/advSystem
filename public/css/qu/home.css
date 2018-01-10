@@ -1,0 +1,35 @@
+header{
+    margin-bottom: 50px;
+}
+h1{
+    text-align:center;
+    margin-top: 30px;
+}
+h4{
+    text-align:center;
+    margin: 20px 10px 10px 10px;
+}
+#option_li{
+    margin-bottom: 10px;
+}
+.option{
+    margin-right: 10px;"
+}
+#topic{
+    text-align: left;
+    margin-bottom: 20px;
+}
+#topic_group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#topic_group_bottom{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#topic_email{
+    text-align: left;
+}
+footer{
+    height: 100px;
+}

@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+.error {
+	color: #F00;
+	font-weight:bold;
+}
+
+h1 {
+	font-size: 14px;
+}
+
+.myname {
+	font-weight:bold;
+	color:#09F;
+}
+
+.opt {
+	padding: 10px;
+}
+
+.btn-danger a {
+	color:#FFF;
+	text-decoration: none;
+	
+}
+
+.div-tabs {
+	width:98%; 
+	margin:0 auto 20px auto;
+}
+
+.form-control3 {
+    display: block;
+    width: 20%;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    float: left;
+    margin-right: 10px;
+}
+
+.form-control4 {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.note {
+	color:#09F;
+	font-weight:bold;
+}
+
+.red_str {
+	color:#F00;
+	font-weight:bold;
+}
+
+.blue_str {
+	color:#09F;
+	font-weight:bold;
+}
+
+.flag {
+	line-height:38px; 
+}
+
+.flag a {
+	text-decoration: none;
+	color:#FF0004; 
+	font-weight:bold;
+}
+
+.flag a:hover {
+	text-decoration: underline;
+}
+
+.open_menu {
+	cursor: pointer;
+}
+
+.rn {
+	max-width: 50%;
+	display: none;
+	position: absolute;
+	z-index: 20;
+	border: 2px solid #666666;
+	background-color:#FFF;
+}
+
+.pop_close {
+	padding: 6px;
+	background-color: #666666;
+	height: 30px;
+	line-height: 16px;
+}
+
+.pg {
+	float: left;
+	color: #FFF;
+}
+
+.pc {
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.pop_content {
+	padding: 6px;
+}
+
+.pop_post {
+	text-align: center;
+	padding: 6px;
+	background-color: #EEEEEE;
+	margin: 0px;
+}
+
+.hck {
+	margin-right: 10px;
+}
