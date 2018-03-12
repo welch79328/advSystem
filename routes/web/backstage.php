@@ -41,4 +41,14 @@ Route::group(['middleware'=>['admin.login'],'prefix'=>'admin','namespace'=>'Admi
 
     Route::any('upload', 'CommonController@upload');
     Route::any('upload/css', 'CommonController@upload_css');
+    
+    Route::get('hotspots_category/{act}', 'HotspotsCategoryController@index');
+    Route::get('hotspots_category_show_add/{act}', 'HotspotsCategoryController@show_add');
+    Route::get('hotspots_category_show_update/{id}/{act}', 'HotspotsCategoryController@show_update');
+    Route::post('add_hotspots_category', 'HotspotsCategoryController@add');
+    Route::post('update_hotspots_category/{id}', 'HotspotsCategoryController@update');
+    Route::post('delete_hotspots_category', 'HotspotsCategoryController@delete');
+    Route::post('get_hotspots_count', 'HotspotsCategoryController@getHotspotsCount');
+    
+    Route::post('get_hotspots_array', 'HotspotsController@getArray');
 });

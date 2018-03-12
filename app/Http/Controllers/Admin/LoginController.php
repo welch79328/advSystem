@@ -50,7 +50,6 @@ use Illuminate\Support\Facades\Input;
             $ma_user = strip_tags($input['ma_user']);
             $ma_pass = Crypt::encrypt($input['ma_pass']);
 
-
             $account = Myadmin::where([
                 ['ma_user',$ma_user],
                 ['ma_status','1'],

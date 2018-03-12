@@ -41,6 +41,9 @@
                     @if(session('ma_level')!='admin')
                     <li><a href="{{url('admin/banner/4')}}">廣告列表 (Ad List)</a></li>
                     @endif
+                    @if(session('ma_level')!='admin')
+                    <li><a href="{{url('admin/hotspots_category/4')}}">熱點分類列表 (Hotspots Category List)</a></li>
+                    @endif
                 </ul>
             </li>
 
